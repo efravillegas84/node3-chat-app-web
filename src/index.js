@@ -12,7 +12,7 @@ const server = http.createServer(app)
 const io = socketio(server)
 
 const port = process.env.PORT || 3000
-
+//test
 
 //definicion de rutas para configuracion de express
 const publicDirPath = path.join(__dirname, '../public')
